@@ -14,11 +14,10 @@ print('DETECTOR DE PALÍNDROMO')
 print('=-'*20)
 
 frase = str(input('Digite uma frase: '))
-semespaco = frase.replace(' ', '').lower() #Remove os espaços da frase digitada
-invert = str('') # Variável para armazenar a frase invertida
+semespaco = frase.replace(' ', '').upper() #Remove os espaços da frase digitada
+invert = semespaco[::-1]
 
-for c in range(len(semespaco)-1, -1, -1):
-    invert = invert + semespaco[c]
+print('O inverso de {} é {}.'.format(semespaco, invert))
 if semespaco == invert:
     print('"{}" É UM PALÍNDROMO!'.format(frase))
 else:
