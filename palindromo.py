@@ -1,6 +1,6 @@
-### DETECTOR DE PALÍNDROMO #####################
+### DETECTOR DE PALÍNDROMOs #####################
 ### Por Adriano Baumart
-### Versão: 1.0       Data: 15/09/2022
+### Versão: 1.0.1       Data: 15/09/2022
 ### Desafio do Curso de Pyhton
 #################################################
 # Exemplos de palíndromos para teste
@@ -20,9 +20,9 @@ invert = str('') # Variável para armazenar a frase invertida
 for c in range(len(semespaco)-1, -1, -1):
     invert = invert + semespaco[c]
 if semespaco == invert:
-    print('{} É UM PALÍNDROMO!'.format(frase))
+    print('"{}" É UM PALÍNDROMO!'.format(frase))
 else:
-    print('{} NÃO É um palíndromo'.format(frase))
+    print('"{}" NÃO É um palíndromo'.format(frase))
 
 
 
