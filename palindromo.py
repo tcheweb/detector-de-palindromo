@@ -10,11 +10,11 @@
 # O lobo ama o bolo
 # Anoratam a data da maratona
 
-print('DETECTOR DE PALÍNDROMO')
+print(' DETECTOR DE PALÍNDROMO ')
 print('=-'*20)
 
 frase = str(input('Digite uma frase: '))
-semespaco = frase.replace(' ', '').upper() #Remove os espaços da frase digitada
+semespaco = frase.replace(' ', '').upper()  #Remove os espaços da frase digitada
 invert = semespaco[::-1]
 
 print('O inverso de {} é {}.'.format(semespaco, invert))
